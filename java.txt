@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class BinaryToDecimal2 {
+	private static Scanner sc;
+	
+	public static void main(String[] args) {
+		
+		sc= new Scanner(System.in);
+
+		System.out.print("Please Enter Binary Number =  ");
+		String binaryString = sc.nextLine();
+	
+		int decimalVal = Integer.parseInt(binaryString, 2);
+		System.out.println("Binary To Decimal Result = " + decimalVal);
+	}
+}
